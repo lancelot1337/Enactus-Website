@@ -487,13 +487,14 @@ section {
 
 .service .heading {
 	position: relative;
-	top: 80px;
+	top: 10px;
 	-webkit-transition: all 600ms cubic-bezier(0.68, -0.55, 0.265, 1.55);
 	transition: all 600ms cubic-bezier(0.68, -0.55, 0.265, 1.55);
 }
 
 .service .icon-holder > img.icon {
-	width: 40px;
+	margin-top:-10%;
+	width: 60%;
 }
 
 .service:hover {
@@ -501,11 +502,11 @@ section {
 }
 
 .service:hover .icon-holder {
-	top: -30px;
+	top: -60px;
 }
 
 .service:hover .heading {
-	top: -30px;
+	top: -50px;
 }
 
 .service .description {
