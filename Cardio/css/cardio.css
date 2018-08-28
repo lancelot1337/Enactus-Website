@@ -111,8 +111,9 @@ ul.white-list li:before {
 
 header {
 	position: relative;
-	width: 100%;
 	color: white;
+	width:100%;
+	height: 100%;
 	background: rgba(28, 36, 65, 0.93);
 	background: url('../img/20_morethanfamily.jpg');
 	background-size: cover;
@@ -302,8 +303,8 @@ section {
 	z-index: 1;
 	top: -80px;
 	left: 0;
-	width: 0;
-	height: 0;
+	width: 100%;
+	height: 100%;
 	border-top: 80px solid transparent;
 	border-right: 30px solid white;
 }
@@ -333,13 +334,18 @@ section {
 }
 
 .intro-table-first {
-	background-image: url('../img/table-1.jpg');
+	background: rgba(28, 36, 65, 0.93);
+	/*background-image: url('../img/Mark-839x839.png');*/
+	background-repeat: no-repeat;
+	background-position: 0% 0%;
+	background-size: cover;
 }
 
 .intro-table-hover {
 	-webkit-transition: background-image 0.3s ease, background-position 0.3s;
 	transition: background-image 0.3s ease, background-position 0.3s;
-	background-image: url('../img/table-2.jpg');
+	/*background-image: url('../img/Mark-839x839.png');*/
+	background: rgba(28, 36, 65, 0.93);
 }
 
 .intro-table-hover h4 {
@@ -350,12 +356,14 @@ section {
 }
 
 .intro-table-hover:hover {
-	background-image: url('../img/table-2-hover.jpg');
+	/*background-image: url('../img/Mark-839x839.png');*/
 	background-position: 50% 50%;
+	background: rgba(28, 36, 65, 0.93);
 }
 
 .intro-table-third {
-	background-image: url('../img/table-3.jpg');
+	/*background-image: url('../img/Mark-839x839.png');*/
+	background: rgba(28, 36, 65, 0.93);
 }
 
 .intro-table-hover .expand {
