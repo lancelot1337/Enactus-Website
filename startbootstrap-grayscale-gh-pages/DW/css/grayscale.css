@@ -302,3 +302,8 @@ a:focus, a:hover {
 footer {
   padding: 5rem 0;
 }
+
+.custom{
+  max-height: 200px;
+  max-width: 100px;
+}
