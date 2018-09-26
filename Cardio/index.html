@@ -5,7 +5,7 @@
 	<meta charset="UTF-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<title>Cardio: Free One Page Template by Luka Cvetinovic</title>
+	<title>Enactus NSIT</title>
 	<meta name="description" content="Cardio is a free one page template made exclusively for Codrops by Luka Cvetinovic" />
 	<meta name="keywords" content="html template, css, free, one page, gym, fitness, web design" />
 	<meta name="author" content="Luka Cvetinovic for Codrops" />
@@ -33,6 +33,12 @@
 	<link rel="stylesheet" type="text/css" href="fonts/eleganticons/et-icons.css">
 	<!-- Main style -->
 	<link rel="stylesheet" type="text/css" href="css/cardio.css">
+	<!--form -->
+		<link rel="stylesheet" type="text/css" href="vendor/animate/animate.css">
+	<link rel="stylesheet" type="text/css" href="vendor/css-hamburgers/hamburgers.min.css">
+	<link rel="stylesheet" type="text/css" href="vendor/select2/select2.min.css">
+	<link rel="stylesheet" type="text/css" href="css/util.css">
+	<link rel="stylesheet" type="text/css" href="css/main.css">
 </head>
 
 <body>
@@ -57,7 +63,7 @@
 					<li><a href="#intro">Intro</a></li>
 					<li><a href="#services">Projects</a></li>
 					<li><a href="#team">Team</a></li>
-					<li><a href="#pricing">Alumni</a></li>
+					<li><a href="#contact">contact us</a></li>
 					
 				</ul>
 			</div>
@@ -68,7 +74,7 @@
 	<header class = "img-responsive">
 		
 	</header>
-	<div style="padding:-20%; margin-top:-30% ;margin-bottom:18.5%" class="container">
+	<div id = "intro" style="padding:-20%; margin-top:-30% ;margin-bottom:18.5%" class="container">
 			<div class="table">
 				<div class="header-text">
 					<div class="row">
@@ -290,7 +296,7 @@
 								<h5 class="light light-white">1 - 5 sessions / month</h5>
 							</div> -->
 						</div>
-						<img src="img/team/team3.jpg" alt="Team Image" class="avatar">
+						<img src="img/team/sp.jpg" alt="Team Image" class="avatar">
 						<div class="title">
 							<h4>Shantanu Prakash</h4>
 							<h5 class="muted regular">President</h5>
@@ -306,7 +312,7 @@
 								<h5 class="light light-white">1 - 5 sessions / month</h5>
 							</div> -->
 						</div>
-						<img src="img/team/team1.jpg" alt="Team Image" class="avatar">
+						<img src="img/team/ds.jpg" alt="Team Image" class="avatar">
 						<div class="title">
 							<h4>Divya Sharma</h4>
 							<h5 class="muted regular">Vice President, Finance & Operations</h5>
@@ -340,7 +346,7 @@
 								<h5 class="light light-white">1 - 5 sessions / month</h5>
 							</div> -->
 						</div>
-						<img src="img/team/team3.jpg" alt="Team Image" class="avatar">
+						<img src="img/team/sg.jpg" alt="Team Image" class="avatar">
 						<div class="title">
 							<h4>Shivam Gupta</h4>
 							<h5 class="muted regular">Vice President, Technical & Administration</h5>
@@ -356,7 +362,7 @@
 								<h5 class="light light-white">1 - 5 sessions / month</h5>
 							</div> -->
 						</div>
-						<img src="img/team/team2.jpg" alt="Team Image" class="avatar">
+						<img src="img/team/av.jpg" alt="Team Image" class="avatar">
 						<div class="title">
 							<h4>Anirudh Vaid</h4>
 							<h5 class="muted regular">Director, Internal Affairs</h5>
@@ -372,7 +378,7 @@
 								<h5 class="light light-white">1 - 5 sessions / month</h5>
 							</div> -->
 						</div>
-						<img src="img/team/team2.jpg" alt="Team Image" class="avatar">
+						<img src="img/team/ng.jpg" alt="Team Image" class="avatar">
 						<div class="title">
 							<h4>Naman Gangwani</h4>
 							<h5 class="muted regular">Creative Head</h5>
@@ -383,7 +389,7 @@
 			</div>
 		</div>
 	</section>
-
+	<!--
 	<section id="pricing" class="section">
 		<div class="container">
 			<div class="row title text-center">
@@ -430,6 +436,7 @@
 			</div>
 		</div>
 	</section>
+
 	<section class="section section-padded blue-bg">
 		<div class="container">
 			<div class="row">
@@ -455,6 +462,7 @@
 			</div>
 		</div>
 	</section>
+-->
 	<div class="modal fade" id="modal1" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
 		<div class="modal-dialog">
 			<div class="modal-content modal-popup">
@@ -514,6 +522,7 @@
 				<div class="col-sm-8">
 					
 				</div>
+
 				<div class="col-sm-4 text-right text-center-mobile">
 					<ul class="social-footer">
 						<li><a href="https://www.facebook.com/EnactusNSIT/"><i class="fa fa-facebook"></i></a></li>
@@ -523,6 +532,81 @@
 				</div>
 			</div>
 		</div>
+		<!-- form -->
+		<div class="contact1" id="contact">
+		<div class="container-contact1">
+			<div class="contact1-pic js-tilt" data-tilt>
+				<img src="images/img-01.png" alt="IMG">
+			</div>
+
+			<form class="contact1-form validate-form">
+				<span class="contact1-form-title">
+					Get in touch
+				</span>
+
+				<div class="wrap-input1 validate-input" data-validate = "Name is required">
+					<input class="input1" type="text" name="name" placeholder="Name">
+					<span class="shadow-input1"></span>
+				</div>
+
+				<div class="wrap-input1 validate-input" data-validate = "Valid email is required: ex@abc.xyz">
+					<input class="input1" type="text" name="email" placeholder="Email">
+					<span class="shadow-input1"></span>
+				</div>
+
+				<div class="wrap-input1 validate-input" data-validate = "Subject is required">
+					<input class="input1" type="text" name="subject" placeholder="Subject">
+					<span class="shadow-input1"></span>
+				</div>
+
+				<div class="wrap-input1 validate-input" data-validate = "Message is required">
+					<textarea class="input1" name="message" placeholder="Message"></textarea>
+					<span class="shadow-input1"></span>
+				</div>
+
+				<div class="container-contact1-form-btn">
+					<button class="contact1-form-btn">
+						<span>
+							Send Email
+							<i class="fa fa-long-arrow-right" aria-hidden="true"></i>
+						</span>
+					</button>
+				</div>
+			</form>
+		</div>
+	</div>
+
+
+
+
+<!--===============================================================================================-->
+	<script src="vendor/jquery/jquery-3.2.1.min.js"></script>
+<!--===============================================================================================-->
+	<script src="vendor/bootstrap/js/popper.js"></script>
+	<script src="vendor/bootstrap/js/bootstrap.min.js"></script>
+<!--===============================================================================================-->
+	<script src="vendor/select2/select2.min.js"></script>
+<!--===============================================================================================-->
+	<script src="vendor/tilt/tilt.jquery.min.js"></script>
+	<script >
+		$('.js-tilt').tilt({
+			scale: 1.1
+		})
+	</script>
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-23581568-13"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-23581568-13');
+</script>
+
+<!--===============================================================================================-->
+	<script src="js/main1.js"></script>
+
 	</footer>
 	<!-- Holder for mobile navigation -->
 	<div class="mobile-nav">
