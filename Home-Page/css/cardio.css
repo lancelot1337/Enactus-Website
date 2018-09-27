@@ -295,6 +295,7 @@ section {
 
 .section-padded {
 	padding: 140px 0 40px;
+	margin-top: -250px
 }
 
 .cut-top {
@@ -501,7 +502,9 @@ section {
 	-webkit-transition: all 600ms cubic-bezier(0.68, -0.55, 0.265, 1.55);
 	transition: all 600ms cubic-bezier(0.68, -0.55, 0.265, 1.55);
 }
-
+.service .heading > a:hover{
+	color: black;
+}
 .service .icon-holder > img.icon {
 	margin-top:-10%;
 	width: 60%;
