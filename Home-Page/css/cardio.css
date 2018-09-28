@@ -117,11 +117,11 @@ header {
 	background: rgba(28, 36, 65, 0.93);
 	background: url('../img/20_morethanfamily.jpg');
 	background-size: cover;
-	 -webkit-filter: blur(-10px);
+	 -webkit-filter: blur(1px);
   -moz-filter: blur(-1px);
   -o-filter: blur(-1px);
   -ms-filter: blur(-1px);
-  filter: blur(2px);
+  filter: blur(0.5px);
 }
 
 
