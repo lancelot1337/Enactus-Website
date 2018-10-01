@@ -5,6 +5,12 @@ jQuery(function($) {
 	var owlPricing;
 	var ratio = 2;
 
+	$( "#hidden" ).click(function() {
+  alert( "Made by GItz & Dudeja. Signing Out." );
+});
+
+
+
 	// Window Load
 	$(window).load(function() {
 		// Preloader
