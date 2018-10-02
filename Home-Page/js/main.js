@@ -6,7 +6,7 @@ jQuery(function($) {
 	var ratio = 2;
 
 	$( "#hidden" ).click(function() {
-  alert( "Made by GItz & Dudeja. Signing Out." );
+  alert( "Made by Gupta & Dudeja. Signing Out." );
 });
 
 
