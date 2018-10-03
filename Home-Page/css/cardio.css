@@ -116,7 +116,10 @@ header {
 	height: 100%;
 	background: rgba(28, 36, 65, 0.93);
 	background: url('../img/20_morethanfamily.jpg');
-	background-size: cover;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    object-fit: cover;
 	 -webkit-filter: blur(1px);
   -moz-filter: blur(-1px);
   -o-filter: blur(-1px);
